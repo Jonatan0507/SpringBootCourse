@@ -1,13 +1,13 @@
-package net.javaguides.springboot;
+package com.springbackend.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootBackendApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootBackendApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
